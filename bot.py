@@ -1,5 +1,5 @@
 """
-Telegram Vision Bot (Windows Compatible)
+Telegram Avivo Bot (Windows Compatible)
 Receives images and generates AI captions + tags using local BLIP model.
 """
 
@@ -40,7 +40,7 @@ logger = logging.getLogger(__name__)
 MODEL_NAME = "Salesforce/blip-image-captioning-base"
 
 logger.info("=" * 50)
-logger.info("Loading BLIP Vision Model...")
+logger.info("Loading BLIP Avivo Model...")
 logger.info("First run will download ~900MB model.")
 logger.info("Please wait...")
 logger.info("=" * 50)
@@ -115,7 +115,7 @@ def get_tags(caption: str) -> str:
 async def cmd_start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     """Handle /start command."""
     text = (
-        "🤖 *Welcome to the Vision Bot!*\n\n"
+        "🤖 *Welcome to the Avivo Bot!*\n\n"
         "I use AI to describe your images.\n\n"
         "*How to use:*\n"
         "📸 Just send me any photo!\n\n"
@@ -270,7 +270,7 @@ def main() -> None:
 
     print("")
     print("=" * 50)
-    print("   Telegram Vision Bot")
+    print("   Telegram Avivo Bot")
     print("   Starting up...")
     print("=" * 50)
     print("")
