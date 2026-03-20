@@ -22,6 +22,33 @@ no paid APIs needed.
 | Language      | Python 3.11                                 |
 | Platform      | Windows 10/11                               |
 
+## 💻 To DO
+╔══════════════════════════════════════════════╗
+║         TELEGRAM VISION BOT                  ║
+║         Quick Reference Card                 ║
+╠══════════════════════════════════════════════╣
+║                                              ║
+║  START THE BOT:                              ║
+║  1. Open Command Prompt                      ║
+║  2. cd Desktop\telegram-vision-bot           ║
+║  3. venv\Scripts\activate                    ║
+║  4. python bot.py                            ║
+║                                              ║
+║  STOP THE BOT:                               ║
+║  Press Ctrl + C                              ║
+║                                              ║
+║  TELEGRAM COMMANDS:                          ║
+║  /start   — Welcome message                 ║
+║  /help    — Instructions                     ║
+║  /image   — How to upload                    ║
+║  /history — Recent analyses                  ║
+║                                              ║
+║  TO ANALYZE AN IMAGE:                        ║
+║  Just send any photo to the bot!             ║
+║                                              ║
+╚══════════════════════════════════════════════╝
+
+
 ## 📐 Architecture
 
 ```text
