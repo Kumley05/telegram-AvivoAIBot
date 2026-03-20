@@ -23,6 +23,7 @@ no paid APIs needed.
 | Platform      | Windows 10/11                               |
 
 ## 💻 To DO
+```
 ╔══════════════════════════════════════════════╗
 ║         TELEGRAM VISION BOT                  ║
 ║         Quick Reference Card                 ║
