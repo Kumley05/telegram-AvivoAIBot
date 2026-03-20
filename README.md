@@ -52,7 +52,6 @@ no paid APIs needed.
 
 ## 📐 Architecture
 
-```text
 User (Telegram App)
        │
        ▼
